@@ -3754,12 +3754,13 @@ body:not(.touch-device) .owl-item:hover .details__preview {
     font-size: 14px;
   }
   .stage3 {
-    position: relative;
-    margin-bottom: 24px;
-    padding-left: 80px;
-    font-size: 8px;
-    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     color: #ffffff;
+    font-size: 8px;
+    padding-bottom: 10px;
   }
 }
   

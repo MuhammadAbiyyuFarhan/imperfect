@@ -3615,3 +3615,139 @@ body:not(.touch-device) .owl-item:hover .details__preview {
   transition: transform .1s;
   transition: transform .1s, -webkit-transform .1s;
 }
+
+@media only screen and (max-width: 767px) {
+  .h1 {
+    font-size: 68px;
+    line-height: 1.33333;
+    letter-spacing: -.1px;
+  }
+  .h3 {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+  .product__bg{
+    background-size: 700px;
+  }
+  .product__head{
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+  .product__center{
+    padding-left: 50px;
+  }
+  .product__body {
+    padding: 48px 0 112px;
+  }
+  .product__row {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 48px;
+  }
+  .product__pic{
+    width: auto;
+    height: 240px;
+  }
+  .product__overview {
+    width: 100%;
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+  }
+  .product__overview:before {
+    width: 56px;
+  }
+  .product__body .product__preview {
+    margin: 0 -32px 80px;
+  }
+  .product__body .product__preview .product__pic {
+    border-radius: 0;
+  }
+  .product__review {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    max-width: 100%;
+    padding: 0 40px;
+    text-align: center;
+  }
+  .product__author {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+
+  .product__review .product__text {
+    margin: 0 0 35px;
+    font-size: 18px;
+    line-height: 1.77778;
+    letter-spacing: -.6px;
+    font-weight: 400;
+  }
+  .discover{
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+  .discover__title{
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid;
+    display: inline-block;
+  }
+  .discover__circles:before {
+    right: calc(50% - 950px);
+  }
+  .discover__circles:after {
+    display: none;
+  }
+  .discover__list{
+    font-size: 13px;
+    text-align: justify;
+  }
+  .desc {
+    padding: 48px 0;
+  }
+  .desc__head {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 48px;
+  }
+  .desc__title {
+    width: 100%;
+    margin-bottom: 32px;
+    font-size: 24px;
+  }
+  .desc__title:before {
+    width: 56px;
+  }
+  .desc__list {
+    display: block;
+    margin: 0;
+  }
+  .desc__preview {
+    width: 100%;
+    margin: 0;
+  }
+  .desc__preview:not(:last-child) {
+    margin-bottom: 16px;
+  }
+  .desc__preview > .desc__pic {
+    border-radius: 12px;
+  }
+  .stage{
+    font-size: 18px;
+  }
+  .cases__title{
+    font-size: 34px;
+    margin-bottom: 50px;
+  }
+  .cases__info{
+    font-size: 20px;
+  }
+  .cases__text{
+    font-size: 14px;
+  }
+}

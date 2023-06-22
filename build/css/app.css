@@ -3617,6 +3617,9 @@ body:not(.touch-device) .owl-item:hover .details__preview {
 }
 
 @media only screen and (max-width: 767px) {
+  .cursor {
+  display: none;
+  }
   .h1 {
     font-size: 68px;
     line-height: 1.33333;
@@ -3750,4 +3753,14 @@ body:not(.touch-device) .owl-item:hover .details__preview {
   .cases__text{
     font-size: 14px;
   }
+  .stage3 {
+    position: relative;
+    margin-bottom: 24px;
+    padding-left: 80px;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 600;
+    color: #ffffff;
+  }
 }
+  

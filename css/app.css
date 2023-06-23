@@ -3631,10 +3631,6 @@ body:not(.touch-device) .owl-item:hover .details__preview {
   }
   .product__bg{
     background-size: 700px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-attachment: fixed;
   }
   .product__head{
     padding-top: 80px;

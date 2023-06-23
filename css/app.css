@@ -3630,7 +3630,7 @@ body:not(.touch-device) .owl-item:hover .details__preview {
     line-height: 1.4;
   }
   .product__bg{
-    background-size: 700px;
+    background-size: 700px; 
   }
   .product__head{
     padding-top: 80px;
